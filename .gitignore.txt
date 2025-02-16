@@ -1,0 +1,36 @@
+# Arquivos de build e dependências
+bin/
+obj/
+*.log
+
+# Configurações do Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Configuração do Rider/JetBrains
+.idea/
+*.iml
+
+# Arquivos temporários e de cache
+*.cache
+*.pdb
+*.lock
+*.mp4
+*.avi
+*.mov
+
+# Configuração de pacotes NuGet
+*.nupkg
+project.lock.json
+packages/
+.nuget/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configuração do Docker
+docker-compose.override.yml

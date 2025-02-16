@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductAPI.Services</name>
+    </assembly>
+    <members>
+        <member name="M:ProductAPI.Services.Configurations.SwaggerConfiguration.Configure(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+            <summary>
+            Método para personalizar a documentação (Swagger).
+            </summary>
+        </member>
+        <member name="M:ProductAPI.Services.Controllers.ProductsController.GetAll">
+            <summary>
+            Serviço para localizar todos os produtos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProductAPI.Services.Controllers.ProductsController.GetById(System.Guid)">
+            <summary>
+            Serviço para localizar produtos pelo id
+            </summary>
+            <param name="productId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductAPI.Services.Controllers.ProductsController.Register(ProductAPI.Services.Models.ProductPostRequestModel)">
+            <summary>
+            Serviço para cadastro de produtos
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductAPI.Services.Controllers.ProductsController.Update(ProductAPI.Services.Models.ProductPostRequestModel)">
+            <summary>
+            Serviço para atualizar dados de produtos
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductAPI.Services.Controllers.ProductsController.Delete(System.Guid)">
+            <summary>
+            Serviço para excluir produtos
+            </summary>
+            <param name="productId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ProductAPI.Services.Models.ProductResponseModel">
+            <summary>
+            Respostas para serviços POST, PUT e DELETE
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ruan1\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\APIs\\ProductAPI\\ProductAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90EC0280-5E7B-4F9C-ABB2-ADDAD8F1F9C7}|ProductAPI.Services\\ProductAPI.Services.csproj|c:\\users\\ruan1\\onedrive\\\u00E1rea de trabalho\\projetos\\apis\\productapi\\productapi\\productapi.services\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EC0280-5E7B-4F9C-ABB2-ADDAD8F1F9C7}|ProductAPI.Services\\ProductAPI.Services.csproj|solutionrelative:productapi.services\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EC0280-5E7B-4F9C-ABB2-ADDAD8F1F9C7}|ProductAPI.Services\\ProductAPI.Services.csproj|c:\\users\\ruan1\\onedrive\\\u00E1rea de trabalho\\projetos\\apis\\productapi\\productapi\\productapi.services\\models\\productresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EC0280-5E7B-4F9C-ABB2-ADDAD8F1F9C7}|ProductAPI.Services\\ProductAPI.Services.csproj|solutionrelative:productapi.services\\models\\productresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EC0280-5E7B-4F9C-ABB2-ADDAD8F1F9C7}|ProductAPI.Services\\ProductAPI.Services.csproj|c:\\users\\ruan1\\onedrive\\\u00E1rea de trabalho\\projetos\\apis\\productapi\\productapi\\productapi.services\\helpers\\messagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EC0280-5E7B-4F9C-ABB2-ADDAD8F1F9C7}|ProductAPI.Services\\ProductAPI.Services.csproj|solutionrelative:productapi.services\\helpers\\messagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EC0280-5E7B-4F9C-ABB2-ADDAD8F1F9C7}|ProductAPI.Services\\ProductAPI.Services.csproj|c:\\users\\ruan1\\onedrive\\\u00E1rea de trabalho\\projetos\\apis\\productapi\\productapi\\productapi.services\\models\\enums\\messageenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EC0280-5E7B-4F9C-ABB2-ADDAD8F1F9C7}|ProductAPI.Services\\ProductAPI.Services.csproj|solutionrelative:productapi.services\\models\\enums\\messageenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EC0280-5E7B-4F9C-ABB2-ADDAD8F1F9C7}|ProductAPI.Services\\ProductAPI.Services.csproj|c:\\users\\ruan1\\onedrive\\\u00E1rea de trabalho\\projetos\\apis\\productapi\\productapi\\productapi.services\\mappings\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EC0280-5E7B-4F9C-ABB2-ADDAD8F1F9C7}|ProductAPI.Services\\ProductAPI.Services.csproj|solutionrelative:productapi.services\\mappings\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA9076E6-D9E1-4BC1-9AAD-3B200B4A261D}|ProductAPI.Tests\\ProductAPI.Tests.csproj|c:\\users\\ruan1\\onedrive\\\u00E1rea de trabalho\\projetos\\apis\\productapi\\productapi\\productapi.tests\\producttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA9076E6-D9E1-4BC1-9AAD-3B200B4A261D}|ProductAPI.Tests\\ProductAPI.Tests.csproj|solutionrelative:productapi.tests\\producttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA9076E6-D9E1-4BC1-9AAD-3B200B4A261D}|ProductAPI.Tests\\ProductAPI.Tests.csproj|c:\\users\\ruan1\\onedrive\\\u00E1rea de trabalho\\projetos\\apis\\productapi\\productapi\\productapi.tests\\helpers\\testhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA9076E6-D9E1-4BC1-9AAD-3B200B4A261D}|ProductAPI.Tests\\ProductAPI.Tests.csproj|solutionrelative:productapi.tests\\helpers\\testhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EC0280-5E7B-4F9C-ABB2-ADDAD8F1F9C7}|ProductAPI.Services\\ProductAPI.Services.csproj|c:\\users\\ruan1\\onedrive\\\u00E1rea de trabalho\\projetos\\apis\\productapi\\productapi\\productapi.services\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EC0280-5E7B-4F9C-ABB2-ADDAD8F1F9C7}|ProductAPI.Services\\ProductAPI.Services.csproj|solutionrelative:productapi.services\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\ruan1\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\APIs\\ProductAPI\\ProductAPI\\ProductAPI.Services\\Models\\ProductResponseModel.cs",
+              "RelativeDocumentMoniker": "ProductAPI.Services\\Models\\ProductResponseModel.cs",
+              "ToolTip": "C:\\Users\\ruan1\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\APIs\\ProductAPI\\ProductAPI\\ProductAPI.Services\\Models\\ProductResponseModel.cs",
+              "RelativeToolTip": "ProductAPI.Services\\Models\\ProductResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T14:09:31.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessageManager.cs",
+              "DocumentMoniker": "C:\\Users\\ruan1\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\APIs\\ProductAPI\\ProductAPI\\ProductAPI.Services\\Helpers\\MessageManager.cs",
+              "RelativeDocumentMoniker": "ProductAPI.Services\\Helpers\\MessageManager.cs",
+              "ToolTip": "C:\\Users\\ruan1\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\APIs\\ProductAPI\\ProductAPI\\ProductAPI.Services\\Helpers\\MessageManager.cs",
+              "RelativeToolTip": "ProductAPI.Services\\Helpers\\MessageManager.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC4AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T14:03:06.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MessageEnum.cs",
+              "DocumentMoniker": "C:\\Users\\ruan1\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\APIs\\ProductAPI\\ProductAPI\\ProductAPI.Services\\Models\\Enums\\MessageEnum.cs",
+              "RelativeDocumentMoniker": "ProductAPI.Services\\Models\\Enums\\MessageEnum.cs",
+              "ToolTip": "C:\\Users\\ruan1\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\APIs\\ProductAPI\\ProductAPI\\ProductAPI.Services\\Models\\Enums\\MessageEnum.cs",
+              "RelativeToolTip": "ProductAPI.Services\\Models\\Enums\\MessageEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T13:59:06.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductMapper.cs",
+              "DocumentMoniker": "C:\\Users\\ruan1\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\APIs\\ProductAPI\\ProductAPI\\ProductAPI.Services\\Mappings\\ProductMapper.cs",
+              "RelativeDocumentMoniker": "ProductAPI.Services\\Mappings\\ProductMapper.cs",
+              "ToolTip": "C:\\Users\\ruan1\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\APIs\\ProductAPI\\ProductAPI\\ProductAPI.Services\\Mappings\\ProductMapper.cs",
+              "RelativeToolTip": "ProductAPI.Services\\Mappings\\ProductMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T03:28:43.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TestHelper.cs",
+              "DocumentMoniker": "C:\\Users\\ruan1\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\APIs\\ProductAPI\\ProductAPI\\ProductAPI.Tests\\Helpers\\TestHelper.cs",
+              "RelativeDocumentMoniker": "ProductAPI.Tests\\Helpers\\TestHelper.cs",
+              "ToolTip": "C:\\Users\\ruan1\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\APIs\\ProductAPI\\ProductAPI\\ProductAPI.Tests\\Helpers\\TestHelper.cs",
+              "RelativeToolTip": "ProductAPI.Tests\\Helpers\\TestHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T15:34:39.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ruan1\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\APIs\\ProductAPI\\ProductAPI\\ProductAPI.Services\\Program.cs",
+              "RelativeDocumentMoniker": "ProductAPI.Services\\Program.cs",
+              "ToolTip": "C:\\Users\\ruan1\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\APIs\\ProductAPI\\ProductAPI\\ProductAPI.Services\\Program.cs",
+              "RelativeToolTip": "ProductAPI.Services\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T02:28:27.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductTest.cs",
+              "DocumentMoniker": "C:\\Users\\ruan1\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\APIs\\ProductAPI\\ProductAPI\\ProductAPI.Tests\\ProductTest.cs",
+              "RelativeDocumentMoniker": "ProductAPI.Tests\\ProductTest.cs",
+              "ToolTip": "C:\\Users\\ruan1\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\APIs\\ProductAPI\\ProductAPI\\ProductAPI.Tests\\ProductTest.cs",
+              "RelativeToolTip": "ProductAPI.Tests\\ProductTest.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T01:27:23.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\ruan1\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\APIs\\ProductAPI\\ProductAPI\\ProductAPI.Services\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ProductAPI.Services\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\ruan1\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\APIs\\ProductAPI\\ProductAPI\\ProductAPI.Services\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ProductAPI.Services\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAAADYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:48:06.818Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
