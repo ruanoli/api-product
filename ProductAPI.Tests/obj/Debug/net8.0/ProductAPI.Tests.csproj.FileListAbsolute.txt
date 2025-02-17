@@ -463,3 +463,4 @@ C:\Users\ruan1\OneDrive\Área de Trabalho\Projetos\APIs\ProductAPI\ProductAPI\Pr
 C:\Users\ruan1\OneDrive\Área de Trabalho\Projetos\APIs\ProductAPI\ProductAPI\ProductAPI.Tests\obj\Debug\net8.0\ProductAPI.Tests.pdb
 C:\Users\ruan1\OneDrive\Área de Trabalho\Projetos\APIs\ProductAPI\ProductAPI\ProductAPI.Tests\obj\Debug\net8.0\ProductAPI.Tests.genruntimeconfig.cache
 C:\Users\ruan1\OneDrive\Área de Trabalho\Projetos\APIs\ProductAPI\ProductAPI\ProductAPI.Tests\obj\Debug\net8.0\ref\ProductAPI.Tests.dll
+C:\Users\ruan1\OneDrive\Área de Trabalho\Projetos\APIs\ProductAPI\ProductAPI\ProductAPI.Tests\obj\Debug\net8.0\ProductAPI.Tests.sourcelink.json

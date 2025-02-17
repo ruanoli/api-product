@@ -29,7 +29,7 @@
             <param name="model"></param>
             <returns></returns>
         </member>
-        <member name="M:ProductAPI.Services.Controllers.ProductsController.Update(ProductAPI.Services.Models.ProductPostRequestModel)">
+        <member name="M:ProductAPI.Services.Controllers.ProductsController.Update(ProductAPI.Services.Models.ProductUpdateRequestModel)">
             <summary>
             Serviço para atualizar dados de produtos
             </summary>
@@ -44,6 +44,11 @@
             <returns></returns>
         </member>
         <member name="T:ProductAPI.Services.Models.ProductResponseModel">
+            <summary>
+            Respostas para serviços POST, PUT e DELETE
+            </summary>
+        </member>
+        <member name="T:ProductAPI.Services.Models.ProductResponseConsultModel">
             <summary>
             Respostas para serviços POST, PUT e DELETE
             </summary>
