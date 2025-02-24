@@ -64,32 +64,84 @@ namespace ProductAPI.Tests
             response.Product.Should().NotBeNull();
         }
 
-        [Fact(Skip = "Não implementado.")]
-        public void Product_Delete_Returns_Ok()
+        [Fact]
+        public async Task Product_Delete_Returns_Ok()
         {
+            //Cria o produto em memoria para edita-lo
+            var product = await CreateProduct();
 
+            //faz a requisição e retorna com a resposta.
+            var result = await TestHelper.CreateClient().DeleteAsync(endPoint + "/DeleteProduct/" + product.Id);
+
+            //verificando se o resultado do teste passou 
+            //para passar o resultado obtido deve ser 200.
+            result.StatusCode
+                .Should()
+                .Be(HttpStatusCode.OK);
+
+            //Desserializa o retorno obtido pela API.
+            var response = TestHelper.ReadResponse<ProductResponseModel>(result);
+
+            //verificações
+            response.StatusCode.Should().Be(200);
+            response.Message.Should().Be(MessageManager.ControllMessage(MessageEnum.SuccessDelete, "Produto"));
+            response.Product.Should().NotBeNull();
         }
 
-        [Fact(Skip = "Não implementado.")]
-        public void Product_GetById_Returns_Ok()
+        [Fact]
+        public async Task Product_GetById_Returns_Ok()
         {
+            //Cria o produto em memoria para edita-lo
+            var product = await CreateProduct();
 
+            //faz a requisição e retorna com a resposta.
+            var result = await TestHelper.CreateClient().GetAsync(endPoint + "/GetProductById/" + product.Id);
+
+            //verificando se o resultado do teste passou 
+            //para passar o resultado obtido deve ser 200.
+            result.StatusCode
+                .Should()
+                .Be(HttpStatusCode.OK);
+
+            //Desserializa o retorno obtido pela API.
+            var response = TestHelper.ReadResponse<ProductResponseModel>(result);
+
+            //verificações
+            response.StatusCode.Should().Be(200);
+            response.Message.Should().Be(MessageManager.ControllMessage(MessageEnum.SuccessConsult, "Produto"));
+            response.Product.Should().NotBeNull();
         }
 
-        [Fact(Skip = "Não implementado.")]
-        public void Product_GetAll_Returns_Ok()
+        [Fact]
+        public async Task Product_GetAll_Returns_Ok()
         {
+            //Cria o produto em memoria para edita-lo
+            var product = await CreateProduct();
 
+            //faz a requisição e retorna com a resposta.
+            var result = await TestHelper.CreateClient().GetAsync(endPoint + "/GetAllProduct");
+
+            //verificando se o resultado do teste passou 
+            //para passar o resultado obtido deve ser 200.
+            result.StatusCode
+                .Should()
+                .Be(HttpStatusCode.OK);
+
+            //Desserializa o retorno obtido pela API.
+            var response = TestHelper.ReadResponse<List<ProductGetModel>>(result);
+
+            //verificações
+            response.FirstOrDefault(x => x.Id == product.Id).Should().NotBeNull();
         }
 
-        private async Task<Product> CreateProduct()
+        private async Task<ProductGetModel> CreateProduct()
         {
             //criando dados faker para cadastrar produtos
             var faker = new Faker("pt_BR");
             var request = new ProductPostRequestModel
             {
-                Name = faker.Commerce.ProductName(),
-                Description = faker.Commerce.ProductDescription(),
+                Name = faker.Commerce.ProductName() + " Teste",
+                Description = faker.Commerce.ProductDescription() + " Teste",
                 Price = decimal.Parse(faker.Commerce.Price(2)),
                 Quantity = faker.Random.Int(1, 100)
             };

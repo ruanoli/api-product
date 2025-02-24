@@ -32,7 +32,9 @@ namespace ProductAPI.Tests.Helpers
         //método para ler e deserializar o retorno da API após a execução de uma chamada.
         public static T ReadResponse<T>(HttpResponseMessage message)
         {
-            return JsonConvert.DeserializeObject<T>(message.Content.ReadAsStringAsync().Result);
+            var result = JsonConvert.DeserializeObject<T>(message.Content.ReadAsStringAsync().Result);
+            return result;
         }
+
     }
 }
